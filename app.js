@@ -1,5 +1,5 @@
 // add new feature
-let p = document.getElementById(p);
-let h1 = document.getElementById(h1);
-p.innerHTML("Hello JS");
-h1.append(p);
+let p = document.getElementsByTagName("p")[1];
+let h1 = document.getElementsByTagName("h1")[1];
+p.innerText = "para Tag updated by diff DOM";
+h1.innerText = "Heading Tag updated by diff DOM";
